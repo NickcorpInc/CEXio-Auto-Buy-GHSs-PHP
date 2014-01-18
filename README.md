@@ -3,7 +3,7 @@ CEXio-Auto-Buy-GHSs-PHP
 
 Automatic buying CEX.io GHSs for BTC and NMC.
 
-To run the script needed PCP. 
+To run the script needed PHP. 
 I run the script from the command line. 
 The script runs in an infinite loop (almost always). 
 Once per minute, a request data from the website CEX.io . 
