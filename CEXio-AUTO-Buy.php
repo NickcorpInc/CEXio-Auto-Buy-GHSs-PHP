@@ -16,7 +16,7 @@ while(true)
 {
 
     // Working Function
-    	$StartTime = FirstFunc('nickcorp','P58XXFsONbhfB7wGypXeHg5KCxI','jBdAo9ORNvoqSrCzDczmSkRYkrg',0.01);
+    	$StartTime = FirstFunc('NickName','Key','Secret',0.01);
 
 
 
