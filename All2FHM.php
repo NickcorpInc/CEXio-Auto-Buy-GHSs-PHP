@@ -58,9 +58,9 @@ function FirstFunc($username, $api_key, $api_secret, $Lot)
 	$NMC_Ball	= $OutRes->NMC->available ;
 	$LTC_Ball	= $OutRes->LTC->available ;
 
-	$FHMBTC_available = $BTC_Ball / ($FHMPrice*1.0001) ;
-	$FHMNMC_available = $NMC_Ball / ($FHMPrice*1.0001) * $NMCPrice;
-	$FHMLTC_available = $LTC_Ball / ($FHMPrice*1.0001) * $LTCPrice;
+	$FHMBTC_available = $BTC_Ball / ($FHMPrice*1.0021) ;
+	$FHMNMC_available = $NMC_Ball / ($FHMPrice*1.0021) * $NMCPrice;
+	$FHMLTC_available = $LTC_Ball / ($FHMPrice*1.0021) * $LTCPrice;
 
 	// Print to Screen
 	echo 'FHM/BTC : ', $FHMPrice, "\n";
